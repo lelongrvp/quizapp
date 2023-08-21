@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">Quiz app</Navbar.Brand>
+        <NavLink to="/" className="navbar-brand">
+          Quiz app
+        </NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -31,5 +33,4 @@ const Header = () => {
     </Navbar>
   );
 };
-
 export default Header;
