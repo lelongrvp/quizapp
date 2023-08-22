@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+@media (max-width: 768px) {
+  .app-container {
+    padding: 10px;
+  }
+}
+
 .app-container .header-container .navbar-nav .nav-link.active {
   background-color: rgb(114, 184, 245);
 }
