@@ -1,5 +1,5 @@
 import videoHomepage from "../../assets/video-homepage.mp4";
-import "./HomePage.css";
+import "./HomePage.scss";
 
 const HomePage = (props) => {
   return (
